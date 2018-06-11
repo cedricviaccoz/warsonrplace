@@ -12,7 +12,7 @@
 # Conflicts Type
 
 ### _Spatial_
-An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community.
+An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community. This conflict type being one of the main conflict encountered on r/place seems to be backed up by the table of the most attacked communities below, which show that
 
 Examples : Osu, Americanflaginplace
 
@@ -69,6 +69,10 @@ W/ MULTIPLE AREAS CONSIDERATION :
 * "ireland"'s area is 10050.5
 * "purplepixels"'s area is 4978.0
 * "osugame"'s area is 6204.5
+* "placenl"'s area is 42235.0
+* "placestart"'s area is 15195.5
+* "placehearts"'s area is 18678.0
+* "thebluecorner"'s area is 6946.0
 
 
 Note that some entries of the listing are false duplicated, as they occupy the same zone on the canvas, and thus characterizes the same conflict (for example the 8th entry, /r/de and /r/placede are two different subreddits but intrasically linked in a way they defend the same zone, in this case, the german flag), they were thus put in the same line.
@@ -76,6 +80,8 @@ Also note that included in the ranking are some other interesting conflict which
 
 OC stands for "Opposite conflict", so each line also contains the amount of reverse conflict that happened too.
 
+
+## Table of all major conflicts between communities
 | Rank | Positive contribution on | Negative contribution on | user # | OC Rank | OC user # |
 | ---- | ------------------------ | ------------------------ | ----------------------------------------- | ------ | ------ |
 | 1 | /r/sweden | /r/denmark | 382| 603 | 10 |
@@ -92,6 +98,20 @@ OC stands for "Opposite conflict", so each line also contains the amount of reve
 | 15&16 | /r/americanflaginplace | /r/theblackvoid & /r/thegreatblackhole | 93 |  105 | 37
 | 17&18 | /r/de & /r/placede | /r/americanflaginplace | 92 | 69 | 52 |
 
+## Table of the most attacked communities on r/place
+
+| Rank | Subreddit | Number of "attackers" | Area | Size Rank |
+| ---- | --------- | --------------------- | ---- | --------- |
+| 1 | r/ainbowroad | 172 | 105079.5 | TODO |
+| 2 | r/americanflaginplace | 159 | 12116 | TODO |
+| 3 | r/placenl | 151 | 42235 | TODO |
+| 4 | r/osugame | 136 | 6204.5 | TODO |
+| 5 | r/theblackvoid | 134 | 11122.5 | TODO |
+| 6 | r/sweden | 129 | 18045.5 | TODO |
+| 7 | r/placestart | 129 | 15195.5 | TODO |
+| 8 | r/placehearts | 127 | 18678 | TODO |
+| 9 | r/thebluecorner | 125 | 6946 | TODO |
+| 10 | r/norge | 120 | 11788.5 | TODO |
 
 
 ## SWEDEN VS DENMARK
@@ -99,7 +119,7 @@ OC stands for "Opposite conflict", so each line also contains the amount of reve
 
 SUBCOUNT : probably between 71’152 ([31.03.17 - 14h38:52](https://web.archive.org/web/20170310143852/https://www.reddit.com/r/Denmark/)) and 75’470 ([23.04.17 - 17h32:09](https://web.archive.org/web/20170423173209/https://www.reddit.com/r/Denmark/))
 
-AREA : 1012 pixels
+AREA : 7443.5 pixels
 
 ##### R/SWEDEN :
 SUBCOUNT :  probably between 154’586 ([16.03.17 - 10h14:18](https://web.archive.org/web/20170316101418/https://www.reddit.com/r/sweden/)) and 157’871k ([03.04.17 - 00h56:54](https://web.archive.org/web/20170403005654/https://www.reddit.com/r/sweden/))
@@ -189,6 +209,8 @@ __Reason of conflict__: Expansion (but comes from the contextual previous attack
 
 ## IMPORTANT ATTACK MADE ON THE AMERICAN FLAG/CANVA CENTER
 
+Althought the communities behind the american flag 
+
 ### R/DE AND R/PLACEDE VS AMERICA
 #### R/DE
 SUBCOUNT : Between 55'125 ([26.03.2017 - 15h45:39](http://web.archive.org/web/20170326154539/reddit.com/r/de/)) and 57'188 ([14.04.17 - 16h55:09](http://web.archive.org/web/20170414165509/https://www.reddit.com/r/de/)) but more likely around 56'282 ([02.04.17 - 14h14:40](http://web.archive.org/web/20170402141440/https://www.reddit.com/r/de/)
@@ -240,5 +262,8 @@ AREA :
 
 __Reason of conflict__: Contextual (r/placestart had as a goal to occupy most of the canva's bottom).
 
-### VS R/STLOUISBLUES
+### VS R/STLOUISBLUES & STLOUIS
+
+This is actually not a conflict, but a side-effect on the limitation of the methods used to quantify the conflicts. The osu logo was originally much smaller and located on a region a bit to the north east from where the logo eventually was established. Around the middle of the experiment, they decided to grow on a lower part of the canva, leaving the old place vacant for any new community wanting to establish itself on the canva. The reddit of the ice hockey team from Saint-Louis, Missouri, called the "Saint-Louis Blues" established their logo exactly on the place osu used to have its logo. Since negative contribution are detected on a zone by all the pixels deviating from the final correct version of the canva, this was recorded as osu community users placing incorrect pixels on the Saint-Louis Blues zone. This could have been avoided by detecting at which point a specific artwork started to exist with respect to the canva's history.
+
 
