@@ -12,8 +12,10 @@
 
 # Conflicts Type
 
+___Not to forget to say that a reason of conflict can either be the main reason for this attack, or the reason of the previous attack which led to a defensive attack which is still linked to this reason in the end (revenge/counter-attack is not a real reason of conflict per se)___
+
 ### _Spatial_
-An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community. This conflict type being one of the main conflict encountered on r/place seems to be backed up by the table of the most attacked communities below, which show that __TODO__
+An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community. This conflict type being one of the main conflict encountered on r/place seems to be backed up by the table of the most attacked communities below, which show that most of the communities the most attacked are actually communities with the biggest area occupied on the canva.
 
 Examples : Osu, Americanflaginplace
 
@@ -35,32 +37,6 @@ There is an pre-existing ideological difference between two communities that get
 Examples : Sweden vs Denmark, The_Donald/AmericanFlagInPlace vs TheFarLeftSide
 
 # Ranking of biggest conflicts : 
-
-
-
-### Areas of the artwork from the subreddits studied here 
-
-(NOTE : the way I computed those areas is likely flawed, will need some engineering to 
-
-* "americanflaginplace"'s area is 12116.0
-* "sweden"'s area is 18047.5
-* "denmark"'s area is 7443.5
-* "norge"'s area is 11788.5
-* "thefarleftside"'s area is 1091.5
-* "theblackvoid"'s area is 11122.5
-* "europe"'s area is 4830.0
-* "ainbowroad"'s area is 105079.5
-* "de"'s area is 18806.5
-* "placede"'s area is 18806.5
-* "stlouisblues"'s area is 1752.5
-* "ireland"'s area is 10050.5
-* "purplepixels"'s area is 4978.0
-* "osugame"'s area is 6204.5
-* "placenl"'s area is 42235.0
-* "placestart"'s area is 15195.5
-* "placehearts"'s area is 18678.0
-* "thebluecorner"'s area is 6946.0
-
 
 
 
@@ -90,18 +66,24 @@ RC stands for "Reverse conflict", so each line also contains the amount of confl
 
 ## Table of the most attacked communities on r/place 
 
+(the classement is not 100% perfectely equivalent to the one made by Raph' on the Area computation, it is because I've merged r/placenl and r/netherland together, as well as r/de and r/placede (since they basically were associated to the same territory. the fact they were classified as two seperate area comes from the fact not all the places associated to them were each time assigned to both communities (probably a limitiation from the user-contributed dataset of the atlas (sorry for the lisp-ness of this paragraph))))
+
 | Rank | Subreddit | Number of "attackers" | Area | Size Rank |
 | ---- | --------- | --------------------- | ---- | --------- |
-| 1 | r/ainbowroad | 172 | 105079.5 | TODO |
-| 2 | r/americanflaginplace | 159 | 12116 | TODO |
-| 3 | r/placenl | 151 | 42235 | TODO |
-| 4 | r/osugame | 136 | 6204.5 | TODO |
-| 5 | r/theblackvoid | 134 | 11122.5 | TODO |
-| 6 | r/sweden | 129 | 18045.5 | TODO |
-| 7 | r/placestart | 129 | 15195.5 | TODO |
-| 8 | r/placehearts | 127 | 18678 | TODO |
-| 9 | r/thebluecorner | 125 | 6946 | TODO |
-| 10 | r/norge | 120 | 11788.5 | TODO |
+| 1 | r/ainbowroad | 172 | 87'342 | 1 |
+| 2 | r/americanflaginplace | 159 | 12'116 | 17 |
+| 3 | r/placenl | 151 | 33'059 | 2 |
+| 4 | r/osugame | 136 | 6'642 | 40 |
+| 5 | r/theblackvoid | 134 | 11'199 | 20 |
+| 6 | r/sweden | 129 | 19'120 | 4 |
+| 7 | r/placestart | 129 | 15195.5 | 9 |
+| 8 | r/placehearts | 127 | 18'672 | 5 |
+| 9 | r/thebluecorner | 125 | 7'119 | 31 |
+| 10 | r/norge | 120 | 12'458 | 11 |
+
+
+Half of the 10 most attacked subreddits are actually within the 10 most 
+
 
 
 ## SWEDEN VS DENMARK
@@ -110,13 +92,13 @@ RC stands for "Reverse conflict", so each line also contains the amount of confl
 
 SUBCOUNT : probably between 71’152 ([31.03.17 - 14h38:52](https://web.archive.org/web/20170310143852/https://www.reddit.com/r/Denmark/)) and 75’470 ([23.04.17 - 17h32:09](https://web.archive.org/web/20170423173209/https://www.reddit.com/r/Denmark/))
 
-AREA : 7443.5 pixels
+AREA : 8'767 pixels
 
 #### R/SWEDEN :
 
 SUBCOUNT :  probably between 154’586 ([16.03.17 - 10h14:18](https://web.archive.org/web/20170316101418/https://www.reddit.com/r/sweden/)) and 157’871k ([03.04.17 - 00h56:54](https://web.archive.org/web/20170403005654/https://www.reddit.com/r/sweden/))
 
-AREA : 18047.5 pixels
+AREA : 19'120 pixels
 
 r/sweden attacks r/denmark unilaterally. 384 users with positive contributions to Sweden have negative contribution to Denmark. While in the other way it is only 10 people. This unilateral phenomenon might come from the fact that Sweden has more subscribers, and a bigger area. Both of those elements seems to imply that more swedes were invested in r/place. Both actual countries have been at war against each other for centuries, but they come to peace since the XIXth century. Still some sort of rivalry and mockery exist between the two nations. This [reddit comment](https://www.reddit.com/r/sweden/comments/22aksj/why_do_swedes_and_danes_seem_to_hate_each_other/cgkxdch/) highlights how on the website the mockery/rivalry still exists.
 
@@ -134,24 +116,24 @@ SUBCOUNT : Created on the 1st of April, at the end of the experiment, had surpas
 #### R/THE_DONALD: (they helped building and defending the flag according to the r/place atlas)
 SUBCOUNT : between 385’685 ([31.03.17 - 22h38:51](https://web.archive.org/web/20170331223851/https://www.reddit.com/r/The_Donald/)) and 387’242 ([04.04.17 - 00h12:02](https://web.archive.org/web/20170404001202/https://www.reddit.com/r/The_Donald/))
 
-AREA : 12116 pixels
+AREA : 12'116 pixels
 
 
 ### VS R/AINBOWROAD :
 
 SUBCOUNT : Created on the 31st of March, at the end of the experiment, had surpassed 5000 subscribers ([source](http://redditmetrics.com/r/ainbowroad))
 
-AREA : 87371.5 pixels
+AREA : 87'342 pixels
 
 Interesting as both subreddit emerged from the canvas itself. The conflict came largely from the last day of r/place, where the american flag got destroyed by the void, and the rainbow road which was adjacent, took just the newly « blank » place to expand on it (comes from r/ainbowroad philosophy of filling every empty places of the canvas with the rainbow (need source for that)). Once AFIP got back on its feet, it reinstalled the flag at the center of the canvas.
 
-__Reason of conflict__ : Expansion (rainbow road expanding because it was close to it) && contextual (rainbow road took the place to avoid the void keep on expanding)
+__Reason of conflict__ : Revenge of both Expansion (rainbow road expanding because it was close to it) and contextual (rainbow road took the place to avoid the void keep on expanding)
 
 ### VS R/THEFARLEFTSIDE
 
 SUBCOUNT : Created on the 31st of March, at the end of the experiment, had surpassed 1000 subscribers ([source](http://redditmetrics.com/r/TheFarLeftSide))
 
-AREA : 1091.5 pixels
+AREA : 3'256 pixels
 
 The "far left side", which also stemmed from the canva, is, as its name imply, a zone located on the far left side. However the name also stands for the political orientation, as people of this community are united under ideologies coming from the far left side of the political spectrum (the place they occupied on the canvas is known for having the communist emblem "the hammer and sickle" in yellow above a red background).
 According to the table above, they have been attacked by the communities build around the american flag. This conflict might come from the political opposition between this community and r/the_donald, who is famous for hosting many reddit users with far-right ideologies. Even without the implication of r/the_donald, it is reasonable to think that the average american patriotist would be again such a community, as the country has historically always been opposed to communism.
@@ -161,19 +143,19 @@ __Reason of conflict__ : Ideological
 ### VS R/NORGE
 
 SUBCOUNT : 
-AREA : 11788.5 pixels
+AREA : 12'458 pixels
 
 The attack of the americans on the flag from Norway seems to be quite inexplicable, as no real tensions seemed to exist between the two nations, and the place each artwork occupy are far apart so no neighboring expension could explain such conflict. The truth however lies in a information that can not be seen on the raw final result of the canvas. Looking on the r/place atlas, a [small rectangular zone can be highlighted on the center top part of the Norvegian flag](https://draemm.li/various/place-atlas/?id=1302), doing so display the following bit of information :
 _"The original location of the Texas flag before Norway's flag expanded and eventually consumed it."_
 
-Thus, it can be safely assumed the american attack was actually an effort into preventing the norvegian flag to override a flag from one of the state from America.
+Thus, it can be safely assumed the american attack was actually an effort into preventing the norvegian flag to override a flag from one of the most patriotic state of America.
 
-__Reason of conflict__: Expansion
+__Reason of conflict__: Revenge from Expansion
 
 
 ### VS R/PURPLEPIXELS
 SUBCOUNT : 
-AREA : 3740 pixels
+AREA : 4'981 pixels
 
 What is purplepixels ? [According to the atlas](https://draemm.li/various/place-atlas/?id=1158) : _"This area was originally black in background, but after /r/purplepixels distanced itself from /r/purplecorner for reasons that caused the purple corner to fall, /r/purplepixels relocated to this area to ensure that purples would be represented on the final canvas."_ The zone it occupies is a small rectangular area around the top left corner, far appart from the american flag. So no obvious reasons for this conflict... Even considering r/purplepixels as the remnants from the purple corner, such corner did never reach the place the american flag would occupy.
 
@@ -182,22 +164,22 @@ __Reason of conflict__: ?
 ### VS R/IRELAND
 SUBCOUNT :
 
-AREA : 10050 pixels
+AREA : 10'748 pixels
 
 Ireland mainly had a vertically stretched out nationl flag located under the center of the canvas. Integrity over time graphs (would need to show them for both of the countries) shows that the flag of Ireland predated the american flag but took a long time to reach its final form. Inspecting the timelapse shows the ireland flag took a slow ascent to the north until reaching the american flag where it stopped its northern expansion. During the void total annihilation of the american flag, the Irish flag restarted its northern expansion, which was rejected back to its original border once the American flag reconquered the center of the flag.
 
-__Reason of conflict__: Expansion
+__Reason of conflict__: Revenge from Expansion
 
 ### VS R/THEBLACKVOID AND R/THEGREATBLACKHOLE
 SUBCOUNT : ([source](http://redditmetrics.com/r/theblackvoid))
 
-AREA : 3103 pixels
+AREA : 11'199 pixels
 
 This conflict is kind of a counter attack from the american after the void annihilated the American flag. The american factions simply took back the place they used to occupy before the attack.
 
 What is surprising though, is that only the counter attack was correctly recorded by the tools used. One might ask why the first attack by r/theblackvoid did not get an equivalent place as the reverse on the classement. This come from the contextual foundation 
 
-__Reason of conflict__: Expansion (but comes from the contextual previous attack of theblackvoid)
+__Reason of conflict__: Revenge from Contextual
 
 ## IMPORTANT ATTACK MADE ON THE AMERICAN FLAG/CANVA CENTER
 
@@ -210,11 +192,11 @@ SUBCOUNT : Between 55'125 ([26.03.2017 - 15h45:39](http://web.archive.org/web/20
 #### R/PLACEDE 
 SUBCOUNT :  Created on the 1st of April, at the end of the experiment, had surpassed 500 subscribers ([source](http://redditmetrics.com/r/placede))
 
-AREA : 18806.5 pixels
+AREA : 17'078 pixels
 
 Germany on r/place was really active, as can be seen by the relative important area it successfully occupied and the many subscriber it held on the main subreddit /r/de. The only reason for such an attack on the american flag might come out of jealousy of the center spot american took, or out of german americanophoby (but is it something that should have some source backing some kind of american aversion by germans redditor)
 
-__Reason of conflict__: Maybe spatial or ideological.
+__Reason of conflict__: Spatial/Contextual (american bein in the enter) ?.
 
 
 ##GERMANY VS FRANCE
@@ -224,7 +206,7 @@ __Reason of conflict__: Maybe spatial or ideological.
 SUBCOUNT : likely between 134'215 ([31.03.17 - 15h00:02](https://web.archive.org/web/20170331150002/reddit.com/r/france/)) and 135'183 ([03.04.11h00:02](https://web.archive.org/web/20170403131102/https://www.reddit.com/r/france/))
 
 
-AREA DURING THE ATTACK : 4830 pixels
+AREA DURING THE ATTACK : 4'830 pixels
 
 
 This is one of the most well-known conflict of the canvas, yet it does not appear in the classement above, because the zone that used to hold the french flag on the canvas was replaced by the european flag by the end of the experiment. Considering the fact the atlas used the final version of the canvas as a basis to distinguish the different zones, and the fact that France successfully relocated after this attack, this explains why this conflict is categorised between Germany and Europe.
@@ -239,7 +221,7 @@ __Reason of conflict__: Expansion motived by a bit of ideological/contextual goa
 
 SUBCOUNT : Likely between 33'855 ([20.03.17 - 15h02:44](http://web.archive.org/web/20170320150244/reddit.com/r/osugame)) and 35'527 ([05.04.17 - 07h36:30](http://web.archive.org/web/20170405073630/https://www.reddit.com/r/osugame/))
 
-AREA : 6204.5 pixels
+AREA : 6'642 pixels
 
 
 ### VS R/PLACESTART
@@ -248,11 +230,11 @@ AREA : 6204.5 pixels
 
 SUBCOUNT : 
 
-AREA : 
+AREA : 14'142
 
 /r/placestart was another one of the community that stemmed out of the canvas. The user united under this community had a was pretty simple goal: to build a mockup of the windows 95 start toolbar on the bottom of the canvas. Starting from the lower left corner, they built the toolbar during the second day of the experiment up until three quarter of the canva's bottom. On the way of their left to right expansion, they crossed the bottom part of the round "Osu!" logo. Although an agreement was eventually made in order to allow r/placestart to cross the logo, the osu community tried to avoid the lower part of their logo to be vandalise, thus creating this conflict.
 
-__Reason of conflict__: Contextual (r/placestart had as a goal to occupy most of the canva's bottom).
+__Reason of conflict__: Revenge from Contextual (r/placestart had as a goal to occupy most of the canva's bottom).
 
 ### VS R/STLOUISBLUES & STLOUIS
 
@@ -261,6 +243,6 @@ This is actually not a conflict, but a side-effect on the limitation of the meth
 ## RESOURCES/DATASETS USED:
 
 * [All user contributions dataset](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/)
-* [User contributed interactive website documenting trivia and history of the different artwork](https://draemm.li/various/place-atlas/)
+* [User contributed interactive website documenting trivia and history of the different artwork](https://draemm.li/various/place-atlas/) (Note : at the time of this report redaction, it had identified 787 communities that held some work of art on the canva at one point)
 * [Community cleaned and repaired version of the final canva](https://www.reddit.com/r/place/comments/63ocp3/communitycleaned_and_repaired_version_of_the/)
 * [Video timelapse of the whole canva's evolution](https://www.youtube.com/watch?v=XnRCZK3KjUY&t=51s)
