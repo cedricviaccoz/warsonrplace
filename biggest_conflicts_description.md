@@ -1,18 +1,19 @@
 # Biases  & Limitations :
-* Bots are more efficient than humans in attacking/defending a piece of art. However this would pose no real problem for our research, as those bots are just enhanced versions of human contribution. The intent of protecting and/or attacking a zone still come from a human decision, wether the user actually does it, or program a bot in order to do it.  
+* Bots are more efficient than humans in attacking/defending a piece of art. However this would pose no real problem for our research, as those bots are just enhanced versions of human contribution. The intent of protecting and/or attacking a zone still come from a human decision, whether the user actually does it, or programs a bot in order to do it.  
 
 * We take as the absolute truth the "corrected" version of the canvas, in order to decide which pixel are correct or not. It needs to be considered that the correct version only depicts the ideal version at the last moments of the canvas, some artwork evolved during the whole place existence. For example the denmark flag used to have a muche smaller are of occupation until the last day, where this community decided to expand beyond its region. Thus for the denmark flag, part of its existence would be considered as "incorrect" or highly vandalised according to our tools. Fortunately, most of the artworks (would need number to be computed!) from the canvas got their final form pretty early in the existence of r/place, thus diminishing this bias toward this conflict study.
 
 
-* The way we consider communities conflicts as positive and negative contribution : Communities could have only negative contributor, or separation of roles between attacker and defendant. Such behavior can not be observed with our tools.
+* The way we consider communities conflicts as positive and negative contribution : Communities could have only negative contributor, or separation of roles between attacker and defendant. Apart from manually browsing the subreddits during the experiment to see if such strategies were held, we have no way to observe such behaviours. We could detect some users that are actively making only negative contribution on one piece of art, but it is impossible to assign them to any specific community however.
 
+* In the same way, there might be a slight bias on how we detect communities work, as we take as principle that a user doing positive contribution to one piece of art will be tied to this community. For what we know, it could entirely be a benevolent stranger which likes this artwork and want to help. Considering we're studying conflicts (i.e. users contributing positively to one artwork and negatively to another), this would be an unlikely scenario, as a user participating on a conflict between two communities likely adheres to the reasons of the conflict which are likely tied or verbally declared on the concerned subreddits.
 
 * Why we need computational tools to observe conflicts on a website with persistent database : Verbal traces exist of these conflicts, as threads arose on the different subreddits about the subject during the  whole experiment duration. It would be however harder to detect those conflicts out of those threads because 1. it requires filtering out threads about r/place from the others 2. doing some textual classification/processing in order to correctly extract wether a community decided to attack/vandalise another one. (it's definitely not impossible with today ML and NLP techniques, but out of the scope of what we can do for this project)
 
 # Conflicts Type
 
 ### _Spatial_
-An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community. This conflict type being one of the main conflict encountered on r/place seems to be backed up by the table of the most attacked communities below, which show that
+An artwork takes too much place on the canva, thus some communities feel some injustice about the zone repartition. Out of jealousy, they attack the more greedy community. This conflict type being one of the main conflict encountered on r/place seems to be backed up by the table of the most attacked communities below, which show that __TODO__
 
 Examples : Osu, Americanflaginplace
 
@@ -31,29 +32,15 @@ Examples : Norway over Texas, Germany over France
 ### _Ideological_
 There is an pre-existing ideological difference between two communities that get translated into conflict of vandalism between the two corresponding artworks on the canva.
 
-Examples : Sweden vs Denmark, The_Donald vs TheFarLeftSide
+Examples : Sweden vs Denmark, The_Donald/AmericanFlagInPlace vs TheFarLeftSide
 
 # Ranking of biggest conflicts : 
-__TODO__: Add the reverse conflict on the results table, so the unilaterality of the attacks can be clearly seen. (as it was done for sweden and denmark) + For OSU and AFIP, collect tables (or compute number) which compiles all the subreddit they attacked, and how many subreddit they were attacked by. 
 
-AREA RESULTS W/OUT MULTIPLE AREA CONSIDERATION :
 
-* "americanflaginplace" is 12116.0
-* "sweden" is 18047.5
-* "denmark" is 1012.0
-* "norge" is 11788.5
-* "thefarleftside" is 1091.5
-* "theblackvoid" is 3103.0
-* "europe" is 3294.0
-* "ainbowroad" is 87371.5
-* "de" is 6480.0
-* "placede" is 6480.0
-* "stlouisblues" is 1752.5
-* "ireland" is 10050.5
-* "purplepixels" is 3740.00
-* "osugame" is 6204.5
 
-W/ MULTIPLE AREAS CONSIDERATION :
+### Areas of the artwork from the subreddits studied here 
+
+(NOTE : the way I computed those areas is likely flawed, will need some engineering to 
 
 * "americanflaginplace"'s area is 12116.0
 * "sweden"'s area is 18047.5
@@ -75,14 +62,17 @@ W/ MULTIPLE AREAS CONSIDERATION :
 * "thebluecorner"'s area is 6946.0
 
 
-Note that some entries of the listing are false duplicated, as they occupy the same zone on the canvas, and thus characterizes the same conflict (for example the 8th entry, /r/de and /r/placede are two different subreddits but intrasically linked in a way they defend the same zone, in this case, the german flag), they were thus put in the same line.
-Also note that included in the ranking are some other interesting conflict which help characterizes big event of r/place's history. (Such as the counter attack on the void anihilation of the american flag)
 
-OC stands for "Opposite conflict", so each line also contains the amount of reverse conflict that happened too.
 
 
 ## Table of all major conflicts between communities
-| Rank | Positive contribution on | Negative contribution on | user # | OC Rank | OC user # |
+
+Note that some entries of the listing are false duplicated, as they occupy the same zone on the canvas, and thus characterizes the same conflict (for example the 8th&9th entry, /r/de and /r/placede are two different subreddits but intrasically linked in a way they defend the same zone, in this case, the german flag), they were thus put in the same line.
+Also note that included in the ranking are some other interesting conflict which help characterizes big event of r/place's history. (Such as the counter attack on the void anihilation of the american flag)
+
+RC stands for "Reverse conflict", so each line also contains the amount of conflict in the other way too (which are generally less highly ranked than the primary way of conflict).
+
+| Rank | Positive contribution on | Negative contribution on | user # | RC Rank | RC user # |
 | ---- | ------------------------ | ------------------------ | ----------------------------------------- | ------ | ------ |
 | 1 | /r/sweden | /r/denmark | 382| 603 | 10 |
 | 2 | /r/americanflaginplace | /r/ainbowroad | 247| 28 | 84 |
@@ -98,7 +88,7 @@ OC stands for "Opposite conflict", so each line also contains the amount of reve
 | 15&16 | /r/americanflaginplace | /r/theblackvoid & /r/thegreatblackhole | 93 |  105 | 37
 | 17&18 | /r/de & /r/placede | /r/americanflaginplace | 92 | 69 | 52 |
 
-## Table of the most attacked communities on r/place
+## Table of the most attacked communities on r/place 
 
 | Rank | Subreddit | Number of "attackers" | Area | Size Rank |
 | ---- | --------- | --------------------- | ---- | --------- |
@@ -115,18 +105,20 @@ OC stands for "Opposite conflict", so each line also contains the amount of reve
 
 
 ## SWEDEN VS DENMARK
-##### R/DENMARK :
+
+#### R/DENMARK :
 
 SUBCOUNT : probably between 71’152 ([31.03.17 - 14h38:52](https://web.archive.org/web/20170310143852/https://www.reddit.com/r/Denmark/)) and 75’470 ([23.04.17 - 17h32:09](https://web.archive.org/web/20170423173209/https://www.reddit.com/r/Denmark/))
 
 AREA : 7443.5 pixels
 
-##### R/SWEDEN :
+#### R/SWEDEN :
+
 SUBCOUNT :  probably between 154’586 ([16.03.17 - 10h14:18](https://web.archive.org/web/20170316101418/https://www.reddit.com/r/sweden/)) and 157’871k ([03.04.17 - 00h56:54](https://web.archive.org/web/20170403005654/https://www.reddit.com/r/sweden/))
 
 AREA : 18047.5 pixels
 
-r/sweden attacks r/denmark unilaterally. 384 users with positive contributions to Sweden have negative contribution to Denmark. While in the other way it is only 10 people. Why is this penomenon so unilateral? Sweden has more subscribers, and a bigger area, both seems to imply that more swedes were invested in r/place. Both actual countries have been at war against each other for centuries, but they come to peace since the XIXth century. Still some sort of rivalry and mockery exist between the two nations. This [reddit comment](https://www.reddit.com/r/sweden/comments/22aksj/why_do_swedes_and_danes_seem_to_hate_each_other/cgkxdch/) highlights how on the website the mockery/rivalry still exists.
+r/sweden attacks r/denmark unilaterally. 384 users with positive contributions to Sweden have negative contribution to Denmark. While in the other way it is only 10 people. This unilateral phenomenon might come from the fact that Sweden has more subscribers, and a bigger area. Both of those elements seems to imply that more swedes were invested in r/place. Both actual countries have been at war against each other for centuries, but they come to peace since the XIXth century. Still some sort of rivalry and mockery exist between the two nations. This [reddit comment](https://www.reddit.com/r/sweden/comments/22aksj/why_do_swedes_and_danes_seem_to_hate_each_other/cgkxdch/) highlights how on the website the mockery/rivalry still exists.
 
 What is interesting however, is when looking at the evolution of the flag, it can be seen that it was temporarily taken over by r/sweden and transformed into the swedish national flag during the first day of r/place. Such a takeover has probably been eased by the similarity of both flags, as they both depict two crossing line of the same color above a uniform background from another color. Only the colors change between the dannish and swedish flag. This means for the average /r/sweden subscriber attacking /r/denmark, he only had to change white pixels of the danish flag into yellow, and red pixels into blue. Thus such 
 
@@ -266,4 +258,9 @@ __Reason of conflict__: Contextual (r/placestart had as a goal to occupy most of
 
 This is actually not a conflict, but a side-effect on the limitation of the methods used to quantify the conflicts. The osu logo was originally much smaller and located on a region a bit to the north east from where the logo eventually was established. Around the middle of the experiment, they decided to grow on a lower part of the canva, leaving the old place vacant for any new community wanting to establish itself on the canva. The reddit of the ice hockey team from Saint-Louis, Missouri, called the "Saint-Louis Blues" established their logo exactly on the place osu used to have its logo. Since negative contribution are detected on a zone by all the pixels deviating from the final correct version of the canva, this was recorded as osu community users placing incorrect pixels on the Saint-Louis Blues zone. This could have been avoided by detecting at which point a specific artwork started to exist with respect to the canva's history.
 
+## RESOURCES/DATASETS USED:
 
+* [All user contributions dataset](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/)
+* [User contributed interactive website documenting trivia and history of the different artwork](https://draemm.li/various/place-atlas/)
+* [Community cleaned and repaired version of the final canva](https://www.reddit.com/r/place/comments/63ocp3/communitycleaned_and_repaired_version_of_the/)
+* [Video timelapse of the whole canva's evolution](https://www.youtube.com/watch?v=XnRCZK3KjUY&t=51s)
