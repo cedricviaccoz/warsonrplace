@@ -48,7 +48,7 @@ Also note that included in the ranking are some other interesting conflict which
 
 RC stands for "Reverse conflict", so each line also contains the amount of conflict in the other way too (which are generally less highly ranked than the primary way of conflict).
 
-| Rank | Positive contribution on | Negative contribution on | user # | RC Rank | RC user # |
+| Rank | Attacker | Victim | users | R. rank | R. users |
 | ---- | ------------------------ | ------------------------ | ----------------------------------------- | ------ | ------ |
 | 1 | /r/sweden | /r/denmark | 382| 603 | 10 |
 | 2 | /r/americanflaginplace | /r/ainbowroad | 247| 28 | 84 |
