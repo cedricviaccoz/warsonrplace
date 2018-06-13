@@ -57,12 +57,12 @@ RC stands for "Reverse conflict", so each line also contains the amount of confl
 | 5 | /r/americanflaginplace | /r/thefarleftside | 146 | 75 | 48 |
 | 6 | /r/americanflaginplace | /r/norge | 136 | 597 | 10 |
 | 7 | /r/osugame | /r/stlouisblues | 136 | > 1000 | < 7 |
-| 8&9 | /r/placede & /r/de | /r/europe | 127 | 458 | 13 |
+| 8&9 | /r/placede | /r/europe | 127 | 458 | 13 |
 | 10 | /r/americanflaginplace | /r/purplepixels | 117 | 899 | 7 |
 | 11 | /r/americanflaginplace | /r/ireland | 114 | 464 | 13 |
 | ... | ... | ... | ... | ... | ... | ... |
-| 15&16 | /r/americanflaginplace | /r/theblackvoid & /r/thegreatblackhole | 93 |  105 | 37
-| 17&18 | /r/de & /r/placede | /r/americanflaginplace | 92 | 69 | 52 |
+| 15&16 | /r/americanflaginplace | /r/theblackvoid | 93 |  105 | 37
+| 17&18 | /r/placede | /r/americanflaginplace | 92 | 69 | 52 |
 
 ## Table of the most attacked communities on r/place 
 
